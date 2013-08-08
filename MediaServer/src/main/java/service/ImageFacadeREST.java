@@ -25,7 +25,7 @@ import se.mediaserver.tutorial.domain.Image;
 @Stateless
 @Path("se.mediaserver.tutorial.domain.image")
 public class ImageFacadeREST extends AbstractFacade<Image> {
-    @PersistenceContext(unitName = "PLAYER-PU")
+    @PersistenceContext(unitName = "MySQL-PU")
     private EntityManager em;
 
     public ImageFacadeREST() {
