@@ -29,7 +29,7 @@ public class MediaImageManager {
         Media media = new Image();
 
         media.setFilename("scorpio.jpg");
-        media.setOwner("actus");
+        media.setOwner("inki");
         media.setVisibility("public");
         System.out.println("Media:Image " + media);
         restful.create_XML(media);
